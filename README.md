@@ -23,14 +23,16 @@ Surround에서 재생하는 음악, 회원 등을 관리하며, 데이터 업로
 - Database: PostgreSQL, Redis
 - Cloud: EC2, RDS, S3, Docker
 
+## ERD Model
+
+![surround (4)](https://user-images.githubusercontent.com/83271772/218769336-d70513e8-ad31-49f1-a9e3-7b04eb510108.png)
+
 ## Dev Server 실행 방법
 
 - git clone
 - sample.env를 참고해서 환경변수를 정의해주세요.
 - docker build -t 이미지 .
 - docker run -d -p 접속포트:컨테이너포트 --name 컨테이너이름 이미지
-
-
 
 ## Production 배포 방법
 
